@@ -2,6 +2,7 @@
 
 """
 
+""" PARCELAS """
 parcelas = [
      {
         "nro": 1,
@@ -17,8 +18,27 @@ parcelas = [
     }
 ]
 num_parcela = 3
+""" SENSORES 
+"""
 
+tipos_sensores = ["Sensor de Humedad", "Sensor de Temperatura", "Sensor de pH"]
 
+sensores = [
+    {
+        "num_parcela": 1,
+        "tipo": "Sensor de Humedad",
+        "nombre_tecnico": "Sensor Humedad Modelo H200",
+        "rango": "0-100%",
+        "salida": "Digital"
+    },
+    {
+        "num_parcela": 2,
+        "tipo": "Sensor de Temperatura",
+        "nombre_tecnico": "Termómetro Agrícola T100",
+        "rango": "-10 a 60°C",
+        "salida": "Analógica"
+    }
+]
 print ("Bienvenidos al sistema de Monitoreo de AgroTech Coop")
 opcion = ''
 
@@ -101,9 +121,69 @@ while opcion != "5":
 
 
     elif opcion == "2":
-        print ("Gestion de Sensores")
-        print("en proceso...")
-        opcion_sec = input ("Ingese seleccion: ")
+        print("--- Gestión de Sensores ---")
+        print("1. Ver Tipos de Sensores Disponibles")
+        print("2. Agregar Tipo de Sensor")
+        print("3. Ver Sensores Instalados")
+        print("4. Agregar Sensor a una Parcela")
+        print("5. Eliminar Sensor de Parcela")
+        print("6. Volver al menú principal")
+        opcion_sec = input("Ingrese una opción: ")
+
+        if opcion_sec == "1":
+            print("Sensores Disponibles")
+            if len(tipos_sensores) == 0:
+                print("No hay sensores registrados.")
+            else:
+                for i, tipo in enumerate(tipos_sensores):
+                    print(f"{i+1}. {tipo}")
+            print
+
+        elif opcion_sec == "2":
+            nuevo_tipo_sensor = input("Ingrese el nuevo tipo de sensor")
+            tipos_sensores.append(nuevo_tipo_sensor)
+            print("Tipo de sensor agregado.")
+
+        elif opcion_sec == "3":
+            print("Sensores instalados por parcelas: ")
+            if len(sensores) == 0:
+                print("No hay sensores disponibles")
+            else: 
+                parcelas_sensor = set([s["nro"] for s in sensores])
+                for num in sorted(parcelas_sensor):
+                    print(f"Parcela Nro {nro}:")
+                    for s in sensores:
+                        if s["nro"] == nro:
+                            print(f" - {s['tipo']} | {s['nombre_tecnico']} | Rango: {s['rango']} | Salida: {s['salida']}")
+        
+        elif opcion_sec == "4":                    
+            if len(tipos_sensores) == 0:
+                print("Agregar sensor primero.")
+            else:
+                try:
+                    nro = int(input("Ingrese Nro de parcela donde instalar el sensor"))
+                    print("Tipos disponibles")
+                    for i, tipo in enumerate(tipos_sensores):
+                        print(f"{i+1}. {tipo}")
+                    tipo_index = int(input("Seleccione el tipo de sensor(numero): "))
+                    if 0 <= tipo_index < len(tipos_sensores):
+                        nombre_tecnico = input("Nombre del sensor: ")
+                        rango = input("Rango del sensor: ")
+                        salida = input("Tipo de salida: ")
+                        sensor = {
+                            "nro": nro,
+                            "tipo": tipos_sensores[tipo_index],
+                            "nombre_tecnico": nombre_tecnico,
+                            "rango": rango,
+                            "salida": salida
+                        }
+                        sensores.append(sensor)
+                        print("Sensor instalado correctamente.")
+                    else:
+                        print("Tipo de sensor invalido.")
+                except:
+                    print("Error de datos ingresados.")
+
     
     elif opcion == "3":
         print ("Gestion de Mediciones")
