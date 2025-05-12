@@ -149,11 +149,11 @@ while opcion != "5":
             if len(sensores) == 0:
                 print("No hay sensores disponibles")
             else: 
-                parcelas_sensor = set([s["nro"] for s in sensores])
+                parcelas_sensor = set([s["num_parcela"] for s in sensores])
                 for num in sorted(parcelas_sensor):
-                    print(f"Parcela Nro {nro}:")
+                    print(f"Parcela Nro {num_parcela}:")
                     for s in sensores:
-                        if s["nro"] == nro:
+                        if s["num_parcela"] == num:
                             print(f" - {s['tipo']} | {s['nombre_tecnico']} | Rango: {s['rango']} | Salida: {s['salida']}")
         
         elif opcion_sec == "4":                    
@@ -184,7 +184,28 @@ while opcion != "5":
                 except:
                     print("Error de datos ingresados.")
 
-    
+        elif opcion_sec == "5":
+            if len(sensores) == 0:
+                print("No hay registro.")
+            else:
+                print("Sensores instalados:")
+                for i, s in enumerate(sensores):
+                    print(f"{i+1}. Parcela {s['nro']} - {s['nombre_tecnico']} ({s['tipo']})")
+                eliminar = int(input("Seleccione el numero de sensor a eliminar")) - 1
+                if 0 <= eliminar < len(sensores):
+                    confirm = input("¿Estas Seguro? (s/n): ")
+                    if confirm.lower() == 's':
+                        sensores.pop(eliminar)
+                        print("Sensor elminado.")
+                    else:
+                        print("Cancelado.")
+        elif opcion_sec == "6":
+            print("Saliendo..")
+        
+        else: 
+            print("Opcion invalida.")
+
+
     elif opcion == "3":
         print ("Gestion de Mediciones")
         print("en proceso...")
