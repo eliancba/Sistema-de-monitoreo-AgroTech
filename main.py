@@ -115,5 +115,7 @@ while opcion != "5":
         print("en proceso...")
         opcion_sec = input ("Ingese seleccion: ")
 
+    elif opcion =="5":
+        print("Saliendo..")
     else:
         print ("Opcion incorrecta.")
