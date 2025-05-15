@@ -3,6 +3,7 @@
 # --------------------------
 # DATOS GLOBALES DEL SISTEMA
 # --------------------------
+from datetime import datetime
 
 # Lista de parcelas registradas
 parcelas = [
@@ -17,10 +18,37 @@ sensores = [
 ]
 
 # Diccionario con sensores instalados por parcela (clave = nro parcela, valor = lista de sensores)
-sensores_en_parcelas = {}
+sensores_en_parcelas = {
+    
+    1: [1, 2],  # Parcela 1: sensores de humedad y temperatura
+    2: [2]      # Parcela 2: sensor de temperatura
+}
+
 
 # Lista de mediciones registradas
-mediciones = []
+mediciones = [
+    {
+        "parcela": 1,
+        "sensor": 1,
+        "valor": "42",
+        "unidad": "%",
+        "fecha_hora": datetime.strptime("10/05/2025 08:00", "%d/%m/%Y %H:%M")
+    },
+    {
+        "parcela": 2,
+        "sensor": 2,
+        "valor": "23",
+        "unidad": "°C",
+        "fecha_hora": datetime.strptime("10/05/2025 09:00", "%d/%m/%Y %H:%M")
+    },
+    {
+        "parcela": 1,
+        "sensor": 2,
+        "valor": "19",
+        "unidad": "°C",
+        "fecha_hora": datetime.strptime("11/05/2025 07:30", "%d/%m/%Y %H:%M")
+    }
+]
 
 # Contadores para nuevas entidades
 num_parcela = 3
