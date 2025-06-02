@@ -13,7 +13,7 @@ Este proyecto consiste en un sistema de monitoreo para parcelas agrícolas, dond
 | Julian Coronel            | julianbcoronel20@gmail.com    | 03576 485711 | julianbcoronel   |
 | Jorge Alonso Reyes        | jorge311977@gmail.com         | 3541 337818  | Jorge311977      |
 | Elian Pucheta             | elianpucheta1@gmail.com       | 3576529930   | eliancba         |
-| Luciano Decandido         | lucho.deca@gmail.com          | 3537553890   | -                |
+| Luciano Decandido         | lucho.deca@gmail.com          | 3537553890   | Lucho-89         |
 | Maria Jose Elguero        | mariaelguero@gmail.com        | 3584851373   | majoelguero      |
 
 ## Instrucciones Básicas de Ejecución
