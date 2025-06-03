@@ -43,38 +43,39 @@ También, la importancia de las asociaciones sindicales en el sector tecnológic
 
 El vínculo que se puede establecer con la cooperativa, en este caso de desarrollo de software, puede ser de distintas maneras dependiendo el contrato de trabajo, de esta manera podemos destacar tres alternativas posibles:
 
-Contrato por plazo fijo. La actividad del programador se ejerce por un tiempo determinado, este finaliza cuando el programador finaliza su trabajo por el cual ha sido contratado.
-En el caso de despido antes del vencimiento del plazo, el trabajador tendrá derecho a la indemnización correspondiente.
+    - Contrato por plazo fijo. La actividad del programador se ejerce por un tiempo determinado, este finaliza cuando el programador finaliza su trabajo por el cual ha sido contratado.
+    - En el caso de despido antes del vencimiento del plazo, el trabajador tendrá derecho a la indemnización correspondiente.
 
-Contrato bajo relación de dependencia. La actividad del programador se ejerce bajo la dependencia de un empleador, ésta implica una vinculación formal, teniendo jornada laboral definida, salario mensual y cobertura legal.
+    - Contrato bajo relación de dependencia. La actividad del programador se ejerce bajo la dependencia de un empleador, ésta implica una vinculación formal, teniendo jornada laboral definida, salario mensual y cobertura legal.
 
-Contrato de trabajo eventual. La actividad del trabajador se ejerce bajo la dependencia de un empleador para la satisfacción de resultados concretos. Además, se entenderá que media tal tipo de relación cuando el vínculo comienza y termina con la realización de la obra, la ejecución del acto o la prestación de servicio para el que fue contratado el trabajador.
+    - Contrato de trabajo eventual. La actividad del trabajador se ejerce bajo la dependencia de un empleador para la satisfacción de resultados concretos. Además, se entenderá que media tal tipo de relación cuando el vínculo comienza y termina con la realización de la obra, la ejecución del acto o la prestación de servicio para el que fue contratado el trabajador.
 
 Junto con el acuerdo de contrato de trabajo también se adquieren derechos y obligaciones por parte del empleador y del trabajador.
+
 Por parte del trabajador, cuenta con derechos fundamentales:
-Salario justo.
-Jornada laboral limitada
-Licencias por enfermedad o maternidad/paternidad
-Cobertura médica
-Aportes jubilatorios 
-Derecho a indemnización en caso de despido injustificado.
-Propiedad de intervenciones o descubrimientos personales.
+    - Salario justo.
+    - Jornada laboral limitada
+    - Licencias por enfermedad o maternidad/paternidad
+    - Cobertura médica
+    - Aportes jubilatorios 
+    - Derecho a indemnización en caso de despido injustificado.
+    - Propiedad de intervenciones o descubrimientos personales.
 
 Pero además tiene obligaciones tales como:
-Deber de diligencia y colaboración.
-El deber de fidelidad de la información tratada.
-La utilización adecuada de los recursos de la empresa.
-Cumplimiento de las normativas internas de seguridad y conducta.
-Responsabilidad por daños.
-Deber de no concurrencia.
+    - Deber de diligencia y colaboración.
+    - El deber de fidelidad de la información tratada.
+    - La utilización adecuada de los recursos de la empresa.
+    - Cumplimiento de las normativas internas de seguridad y conducta.
+    - Responsabilidad por daños.
+    - Deber de no concurrencia.
 
 Por parte del empleador tiene la obligación de:
-Garantizar un ambiente laboral seguro.
-El pago puntual de haberes.
-Respetar los derechos individuales y colectivos del trabajador.
-Deber de observar las obligaciones frente a los organismos sindicales y de la seguridad social.
-Dispensar igualdad de trato a todos los trabajadores.
-Derechos de escalafón, ascensos y preferencias.
+    - Garantizar un ambiente laboral seguro.
+    - El pago puntual de haberes.
+    - Respetar los derechos individuales y colectivos del trabajador.
+    - Deber de observar las obligaciones frente a los organismos sindicales y de la seguridad social.
+    - Dispensar igualdad de trato a todos los trabajadores.
+    - Derechos de escalafón, ascensos y preferencias.
 
 Gracias a las ley N.º 23.551 y la ley N.º 14.250 las asociaciones sindicales y los convenios colectivos de trabajo han defendido gran cantidad de derechos que tenemos los trabajadores, frente a empresas contratadoras y ante el Estado.
  
@@ -138,6 +139,8 @@ En el proceso de diseño del sistema, como programadores debemos tener ciertos r
     - Recaudar toda la información previo a diseñar el sistema y en el caso de que necesitemos autorización para utilizar información confidencial ya lo tengamos.
     - Tener un respaldo de la información que vayamos a utilizar.
     - Contemplar la ciberseguridad.
+
+## Reflexión sobre el caso de la Cooperativa AgroTech
 
 Como programadores debemos actuar de manera prudente y responsable frente al impacto ambiental y social de  la tecnología.
 El uso de herramientas digitales en el ámbito agropecuario logra favorecer los procesos productivos de manera más sostenible y eficaz, además de tener un gran poder de influencia en la toma de decisiones.
