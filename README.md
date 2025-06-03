@@ -53,6 +53,7 @@ El vínculo que se puede establecer con la cooperativa, en este caso de desarrol
 Junto con el acuerdo de contrato de trabajo también se adquieren derechos y obligaciones por parte del empleador y del trabajador.
 
 Por parte del trabajador, cuenta con derechos fundamentales:
+
     - Salario justo.
     - Jornada laboral limitada
     - Licencias por enfermedad o maternidad/paternidad
@@ -62,6 +63,7 @@ Por parte del trabajador, cuenta con derechos fundamentales:
     - Propiedad de intervenciones o descubrimientos personales.
 
 Pero además tiene obligaciones tales como:
+
     - Deber de diligencia y colaboración.
     - El deber de fidelidad de la información tratada.
     - La utilización adecuada de los recursos de la empresa.
@@ -70,6 +72,7 @@ Pero además tiene obligaciones tales como:
     - Deber de no concurrencia.
 
 Por parte del empleador tiene la obligación de:
+
     - Garantizar un ambiente laboral seguro.
     - El pago puntual de haberes.
     - Respetar los derechos individuales y colectivos del trabajador.
